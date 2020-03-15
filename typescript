@@ -1,0 +1,53 @@
+Script started on 2020-02-25 23:33:13-0600
+]0;bhuvan@bhuvan-VirtualBox: ~[01;32mbhuvan@bhuvan-VirtualBox[00m:[01;34m~[00m$ g++ file[K[K[K[K[K[K[K[Kls
+[0m[01;34mDesktop[0m    [01;34mDownloads[0m    filedisp.cpp  [01;34mmydata[0m    [01;34mPublic[0m     typescript
+[01;34mDocuments[0m  filecnt.cpp  [01;34mMusic[0m         [01;34mPictures[0m  [01;34mTemplates[0m  [01;34mVideos[0m
+]0;bhuvan@bhuvan-VirtualBox: ~[01;32mbhuvan@bhuvan-VirtualBox[00m:[01;34m~[00m$ g++ filecnt.cpp -o filecnt
+]0;bhuvan@bhuvan-VirtualBox: ~[01;32mbhuvan@bhuvan-VirtualBox[00m:[01;34m~[00m$ g++ filecnt.cpp -o filecnt[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[Kdisp.cpp -o filedisp
+[01m[Kfiledisp.cpp:[m[K In function ‘[01m[Kint main(int, char**)[m[K’:
+[01m[Kfiledisp.cpp:20:8:[m[K [01;31m[Kerror: [m[K‘[01m[Kstrncmp[m[K’ was not declared in this scope
+     if([01;31m[Kstrncmp[m[K(argv[1], "-d", 2) == 0) {
+        [01;31m[K^~~~~~~[m[K
+[01m[Kfiledisp.cpp:20:8:[m[K [01;36m[Knote: [m[Ksuggested alternative: ‘[01m[Kwcsncmp[m[K’
+     if([01;36m[Kstrncmp[m[K(argv[1], "-d", 2) == 0) {
+        [01;36m[K^~~~~~~[m[K
+        [32m[Kwcsncmp[m[K
+]0;bhuvan@bhuvan-VirtualBox: ~[01;32mbhuvan@bhuvan-VirtualBox[00m:[01;34m~[00m$ g++ filedisp.cpp -o filedisp[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[Kls
+[0m[01;34mDesktop[0m    fdisp.cpp    filedisp.cpp  [01;34mPictures[0m   typescript
+[01;34mDocuments[0m  [01;32mfilecnt[0m      [01;34mMusic[0m         [01;34mPublic[0m     [01;34mVideos[0m
+[01;34mDownloads[0m  filecnt.cpp  [01;34mmydata[0m        [01;34mTemplates[0m
+]0;bhuvan@bhuvan-VirtualBox: ~[01;32mbhuvan@bhuvan-VirtualBox[00m:[01;34m~[00m$ lsg++ filedisp.cpp -o filedisp[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[Kg++ fdisp.cpp -o files[Kdsp
+]0;bhuvan@bhuvan-VirtualBox: ~[01;32mbhuvan@bhuvan-VirtualBox[00m:[01;34m~[00m$ filecnt /usr/share | filedisp -d
+filecnt: command not found
+filedisp: command not found
+]0;bhuvan@bhuvan-VirtualBox: ~[01;32mbhuvan@bhuvan-VirtualBox[00m:[01;34m~[00m$ filecnt /usr/share | filedisp -d[Kf
+filecnt: command not found
+filedisp: command not found
+]0;bhuvan@bhuvan-VirtualBox: ~[01;32mbhuvan@bhuvan-VirtualBox[00m:[01;34m~[00m$ filecnt /usr/share | filedisp -f[Kb
+filedisp: command not found
+filecnt: command not found
+]0;bhuvan@bhuvan-VirtualBox: ~[01;32mbhuvan@bhuvan-VirtualBox[00m:[01;34m~[00m$ filecnt /usr/share | filedisp -b[1@.[1@/[C[C
+filedisp: command not found
+]0;bhuvan@bhuvan-VirtualBox: ~[01;32mbhuvan@bhuvan-VirtualBox[00m:[01;34m~[00m$ ./filecnt /usr/share | filedisp -b[1@.[1@/[C[C[C[C[C[C[C[C[C[C[C[Kd
+bash: ./filedisp: No such file or directory
+]0;bhuvan@bhuvan-VirtualBox: ~[01;32mbhuvan@bhuvan-VirtualBox[00m:[01;34m~[00m$ ali[K[K[Kfilecnt[K[K[K[K[K[K[K./filecnt /bhuvan/file[K[K[K[K[K[K[K[K[K[K[Kusr/share | xargs ./filedisp -d
+xargs: ./filedisp: No such file or directory
+]0;bhuvan@bhuvan-VirtualBox: ~[01;32mbhuvan@bhuvan-VirtualBox[00m:[01;34m~[00m$ ./filecnt /usr/share | xargs ./filedisp -d[C[1P[1P[1P[1P[1P[1P
+bash: ./filedisp: No such file or directory
+]0;bhuvan@bhuvan-VirtualBox: ~[01;32mbhuvan@bhuvan-VirtualBox[00m:[01;34m~[00m$ ./filecnt /usr/share | ./filedisp -d[C[1P[1P[1P[1P[1P[1P[1P[1P[C[1P[1@b[1@h[1@u[1@v[1@a[1@n
+bash: ./filedisp: No such file or directory
+]0;bhuvan@bhuvan-VirtualBox: ~[01;32mbhuvan@bhuvan-VirtualBox[00m:[01;34m~[00m$ ./filecnt /bhuvan | ./filedisp -d[1@/[1@f[1@i[1@l[1@e[1@c[1@n[1@t
+bash: ./filedisp: No such file or directory
+]0;bhuvan@bhuvan-VirtualBox: ~[01;32mbhuvan@bhuvan-VirtualBox[00m:[01;34m~[00m$ ls
+[0m[01;34mDesktop[0m    fdisp.cpp    filedisp.cpp  [01;34mmydata[0m    [01;34mTemplates[0m
+[01;34mDocuments[0m  [01;32mfilecnt[0m      [01;32mfiledsp[0m       [01;34mPictures[0m  typescript
+[01;34mDownloads[0m  filecnt.cpp  [01;34mMusic[0m         [01;34mPublic[0m    [01;34mVideos[0m
+]0;bhuvan@bhuvan-VirtualBox: ~[01;32mbhuvan@bhuvan-VirtualBox[00m:[01;34m~[00m$ g++ file[K[K[K[K[K[K[K[K./filecnt /usr/share | xargs ./filedsp -d
+total number of directories in directory is 2 The total 
+]0;bhuvan@bhuvan-VirtualBox: ~[01;32mbhuvan@bhuvan-VirtualBox[00m:[01;34m~[00m$ ./filecnt /usr/share | xargs ./filedsp -d[Kf
+The total number of files in directory is 3 The 
+]0;bhuvan@bhuvan-VirtualBox: ~[01;32mbhuvan@bhuvan-VirtualBox[00m:[01;34m~[00m$ ./filecnt /usr/share | xargs ./filedsp -f[Kb
+number of bytes occupied by all files in directory is 24576 ]0;bhuvan@bhuvan-VirtualBox: ~[01;32mbhuvan@bhuvan-VirtualBox[00m:[01;34m~[00m$ exit
+exit
+
+Script done on 2020-02-25 23:45:38-0600
